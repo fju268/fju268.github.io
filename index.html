@@ -15,6 +15,9 @@
   .silver-background{
     background-color: silver;
   }
+  .font1-color{
+    color: red;
+  }
     </style>
   <head>
     <meta charset="utf-8">
@@ -41,5 +44,23 @@
           <li><a href="#">Mating</a>
 </h3>
 </div>
+<div>
+  <marquee class="font1-color">全民投票一起來 選個狗官叫唉唉 </marquee>
+
+<h4> 來一個simple question 吧~~
+    幫投個下次希望介紹的主題
+    <form action="/decide-next-theme">
+    <label for="Politics"><input id="Politics" type="radio" name="Politics-Economy"> Politics</label>
+    <label for="Economy"><input id="Economy" type="radio" name="Politics-Economy"> Economy</label><br>
+    <label for = "animal"><input id = "animal" type = "checkbox"
+    name = "type">Animal</label>
+    <label for = "Buddhism"><input id = "Buddhism" type = "checkbox" name = "mental">Buddhism</label>
+    <label for = "Games"> <input id = "Games" type = "checkbox" name = "play"> Games</label>
+
+     
+    <input type="text" placeholder="投完才能走" required>
+    <button type="submit">我要投票</button>
+  </form>
+  </div>
  </body>
 </html>
